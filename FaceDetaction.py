@@ -1,6 +1,6 @@
 import cv2
 #face capture
-face_cap = cv2.CascadeClassifier("C:/Users/Fujitso/AppData/Local/Programs/Python/Python312-32/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml") 
+face_cap = cv2.CascadeClassifier("C:/My Files/Coding Projects/Python/Python312-32/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml") 
 #video Enable
 video_cap =cv2.VideoCapture(0)
 while True:
