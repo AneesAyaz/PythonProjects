@@ -1,42 +1,10 @@
-'''import random
-
-def roll_die():
-    return random.randint(1, 6)
-
-def take_turn(player_name):
-    turn_total = 0
-    while True:
-        roll = roll_die()
-        if roll == 1:
-            print(f"{player_name} rolled a 1! Turn over.")
-            return 0
-        else:
-            turn_total += roll
-            print(f"{player_name} rolled a {roll}. Current turn total: {turn_total}")
-            if input("Roll again? (y/n): ").lower() != 'y':
-                return turn_total
-
-def play_game(target_score=100):
-    scores = {"Player 1": 0, "Player 2": 0}
-    current_player = "Player 1"
-    while all(score < target_score for score in scores.values()):
-        print(f"\n{current_player}'s turn. Current score: {scores[current_player]}")
-        scores[current_player] += take_turn(current_player)
-        print(f"{current_player}'s total score: {scores[current_player]}")
-        if scores[current_player] >= target_score:
-            print(f"\n{current_player} wins with a score of {scores[current_player]}!")
-            break
-        current_player = "Player 1" if current_player == "Player 2" else "Player 2"
-
-if __name__ == "__main__":
-    play_game()'''
 import tkinter as tk
 import random
 
 class PigGame:
     def __init__(self, root):
         self.root = root
-        self.root.title("Pig Game")
+        self.root.title("Dice Game")
         
         self.scores = {"Player 1": 0, "Player 2": 0}
         self.current_player = "Player 1"
@@ -95,6 +63,7 @@ class PigGame:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    game = PigGame(root)
+    game = DiceGame(root)
     root.mainloop()
+
 
