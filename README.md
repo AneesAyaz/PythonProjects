@@ -23,7 +23,6 @@ Tkinter (for GUI apps)
 Random module (for game logic)
 
 
-
 🎯 Learning Goals
 
 Strengthening programming concepts in Python
@@ -36,6 +35,9 @@ Getting hands-on experience with computer vision
 
 
 📬 Contact
+
 👤 Anees Ayaz
+
 📧 Email: anees.ayaz03@gmail.com
-  Contact Number: 03089481898
+
+Contact Number : 03089481898
