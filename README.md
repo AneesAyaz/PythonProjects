@@ -34,10 +34,4 @@ Exploring databases and GUI development
 Getting hands-on experience with computer vision
 
 
-📬 Contact
 
-👤 Anees Ayaz
-
-📧 Email: anees.ayaz03@gmail.com
-
-Contact Number : 03089481898
